@@ -16,6 +16,78 @@ int main(){
     float area,area2,area3,area4,area5,area6,area7,area8,area9,area10,area11,area12,area13,area14,area15,area16,area17,area18,area19,area20,area21,area22,area23,area24,area25,area26,area27,area28,area29,area30,area31,area32;
     float pib,pib2,pib3,pib4,pib5,pib6,pib7,pib8,pib9,pib10,pib11,pib12,pib13,pib14,pib15,pib16,pib17,pib18,pib19,pib20,pib21,pib22,pib23,pib24,pib25,pib26,pib27,pib28,pib29,pib30,pib31,pib32;
     int pt,pt2,pt3,pt4,pt5,pt6,pt7,pt8,pt9,pt10,pt11,pt12,pt13,pt14,pt15,pt16,pt17,pt18,pt19,pt20,pt21,pt22,pt23,pt24,pt25,pt26,pt27,pt28,pt29,pt30,pt31,pt32;
+    
+    //Função para criar os cálculos de PIB per Capita
+
+    float pibpercap =  pib/populacao;
+    float pibpercap2 =  pib2/populacao2;
+    float pibpercap3 =  pib3/populacao3;
+    float pibpercap4 =  pib4/populacao4;
+    float pibpercap5 =  pib5/populacao5;
+    float pibpercap6 =  pib6/populacao6;
+    float pibpercap7 =  pib7/populacao7;
+    float pibpercap8 =  pib8/populacao8;
+    float pibpercap9 =  pib9/populacao9;
+    float pibpercap10 =  pib10/populacao10;
+    float pibpercap11 =  pib11/populacao11;
+    float pibpercap12 =  pib12/populacao12;
+    float pibpercap13 =  pib13/populacao13;
+    float pibpercap14 =  pib14/populacao14;
+    float pibpercap15 =  pib15/populacao15;
+    float pibpercap16 =  pib16/populacao16;
+    float pibpercap17 =  pib17/populacao17;
+    float pibpercap18 =  pib18/populacao18;
+    float pibpercap19 =  pib19/populacao19;
+    float pibpercap20 =  pib20/populacao20;
+    float pibpercap21 =  pib21/populacao21;
+    float pibpercap22 =  pib22/populacao22;
+    float pibpercap23 =  pib23/populacao23;
+    float pibpercap24 =  pib24/populacao24;
+    float pibpercap25 =  pib25/populacao25;
+    float pibpercap26 =  pib26/populacao26;
+    float pibpercap27 =  pib27/populacao27;
+    float pibpercap28 =  pib28/populacao28;
+    float pibpercap29 =  pib29/populacao29;
+    float pibpercap30 =  pib30/populacao30;
+    float pibpercap31 =  pib31/populacao31;
+    float pibpercap32 =  pib32/populacao32;
+    
+    //função para criar cálculo da Densidade populacional
+    
+    float densidade =  populacao/area;
+    float densidade2 =  populacao2/area2;
+    float densidade3 =  populacao3/area3;
+    float densidade4 =  populacao4/area4;
+    float densidade5 =  populacao5/area5;
+    float densidade6 =  populacao6/area6;
+    float densidade7 =  populacao7/area7;
+    float densidade8 =  populacao8/area8;
+    float densidade9 =  populacao9/area9;
+    float densidade10 =  populacao10/area10;
+    float densidade11 =  populacao11/area11;
+    float densidade12 =  populacao12/area12;
+    float densidade13 =  populacao13/area13;
+    float densidade14 =  populacao14/area14;
+    float densidade15 =  populacao15/area15;
+    float densidade16 =  populacao16/area16;
+    float densidade17 =  populacao17/area17;
+    float densidade18 =  populacao18/area18;
+    float densidade19 =  populacao19/area19;
+    float densidade20 =  populacao20/area20;
+    float densidade21 =  populacao21/area21;
+    float densidade22 =  populacao22/area22;
+    float densidade23 =  populacao23/area23;
+    float densidade24 =  populacao24/area24;
+    float densidade25 =  populacao25/area25;
+    float densidade26 =  populacao26/area26;
+    float densidade27 =  populacao27/area27;
+    float densidade28 =  populacao28/area28;
+    float densidade29 =  populacao29/area29;
+    float densidade30 =  populacao30/area30;
+    float densidade31 =  populacao31/area31;
+    float densidade32 =  populacao32/area32;
+    
+    
     printf("Cadastro\n");
     printf("Qual o estado ? ");
     scanf("%c", &estado);
