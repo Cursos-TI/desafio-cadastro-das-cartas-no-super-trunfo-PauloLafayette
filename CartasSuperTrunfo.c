@@ -13,7 +13,7 @@ int main(){
     char codigo[50],codigo2[50],codigo3[50],codigo4[50],codigo5[50],codigo6[50],codigo7[50],codigo8[50],codigo9[50],codigo10[50],codigo11[50],codigo12[50],codigo13[50],codigo14[50],codigo15[50],codigo16[50],codigo17[50],codigo18[50],codigo19[50],codigo20[50],codigo21[50],codigo22[50],codigo23[50],codigo24[50],codigo25[50],codigo26[50],codigo27[50],codigo28[50],codigo29[50],codigo30[50],codigo31[50],codigo32[50];
     char nome[50],nome2[50],nome3[50],nome4[50],nome5[50],nome6[50],nome7[50],nome8[50],nome9[50],nome10[50],nome11[50],nome12[50],nome13[50],nome14[50],nome15[50],nome16[50],nome17[50],nome18[50],nome19[50],nome20[50],nome21[50],nome22[50],nome23[50],nome24[50],nome25[50],nome26[50],nome27[50],nome28[50],nome29[50],nome30[50],nome31[50],nome32[50];
     int populacao,populacao2,populacao3,populacao4,populacao5,populacao6,populacao7,populacao8,populacao9,populacao10,populacao11,populacao12,populacao13,populacao14,populacao15,populacao16,populacao17,populacao18,populacao19,populacao20,populacao21,populacao22,populacao23,populacao24,populacao25,populacao26,populacao27,populacao28,populacao29,populacao30,populacao31,populacao32;
-    int area,area2,area3,area4,area5,area6,area7,area8,area9,area10,area11,area12,area13,area14,area15,area16,area17,area18,area19,area20,area21,area22,area23,area24,area25,area26,area27,area28,area29,area30,area31,area32;
+    float area,area2,area3,area4,area5,area6,area7,area8,area9,area10,area11,area12,area13,area14,area15,area16,area17,area18,area19,area20,area21,area22,area23,area24,area25,area26,area27,area28,area29,area30,area31,area32;
     float pib,pib2,pib3,pib4,pib5,pib6,pib7,pib8,pib9,pib10,pib11,pib12,pib13,pib14,pib15,pib16,pib17,pib18,pib19,pib20,pib21,pib22,pib23,pib24,pib25,pib26,pib27,pib28,pib29,pib30,pib31,pib32;
     int pt,pt2,pt3,pt4,pt5,pt6,pt7,pt8,pt9,pt10,pt11,pt12,pt13,pt14,pt15,pt16,pt17,pt18,pt19,pt20,pt21,pt22,pt23,pt24,pt25,pt26,pt27,pt28,pt29,pt30,pt31,pt32;
     printf("Cadastro\n");
@@ -26,7 +26,7 @@ int main(){
     printf("Qual a população da cidade ? ");
     scanf(" %i", &populacao);
     printf("Qual a área da cidade? ");
-    scanf(" %i", &area);
+    scanf(" %f", &area);
     printf("Qual o PIB da cidade ? ");
     scanf(" %f", &pib);
     printf("Quantos pontos turísticos tem na cidade ? ");
@@ -42,7 +42,7 @@ int main(){
     printf("Qual a população da cidade ? ");
     scanf(" %i", &populacao2);
     printf("Qual a área da cidade? ");
-    scanf("%i", &area2);
+    scanf("%f", &area2);
     printf("Qual o PIB da cidade ? ");
     scanf("%f", &pib2);
     printf("Quantos pontos turísticos tem na cidade ? ");
@@ -58,7 +58,7 @@ int main(){
     printf("Qual a população da cidade ? ");
     scanf(" %i", &populacao3);
     printf("Qual a área da cidade? ");
-    scanf("%i", &area3);
+    scanf("%f", &area3);
     printf("Qual o PIB da cidade ? ");
     scanf("%f", &pib3);
     printf("Quantos pontos turísticos tem na cidade ? ");
@@ -74,7 +74,7 @@ int main(){
     printf("Qual a população da cidade ? ");
     scanf(" %i", &populacao4);
     printf("Qual a área da cidade? ");
-    scanf("%i", &area4);
+    scanf("%f", &area4);
     printf("Qual o PIB da cidade ? ");
     scanf("%f", &pib4);
     printf("Quantos pontos turísticos tem na cidade ? ");
@@ -90,7 +90,7 @@ int main(){
     printf("Qual a população da cidade ? ");
     scanf(" %i", &populacao5);
     printf("Qual a área da cidade? ");
-    scanf(" %i", &area5);
+    scanf(" %f", &area5);
     printf("Qual o PIB da cidade ? ");
     scanf(" %f", &pib5);
     printf("Quantos pontos turísticos tem na cidade ? ");
@@ -106,7 +106,7 @@ int main(){
     printf("Qual a população da cidade ? ");
     scanf(" %i", &populacao6);
     printf("Qual a área da cidade? ");
-    scanf(" %i", &area6);
+    scanf(" %f", &area6);
     printf("Qual o PIB da cidade ? ");
     scanf(" %f", &pib6);
     printf("Quantos pontos turísticos tem na cidade ? ");
@@ -122,7 +122,7 @@ int main(){
     printf("Qual a população da cidade ? ");
     scanf(" %i", &populacao7);
     printf("Qual a área da cidade? ");
-    scanf(" %i", &area7);
+    scanf(" %f", &area7);
     printf("Qual o PIB da cidade ? ");
     scanf(" %f", &pib7);
     printf("Quantos pontos turísticos tem na cidade ? ");
@@ -138,7 +138,7 @@ int main(){
     printf("Qual a população da cidade ? ");
     scanf(" %i", &populacao8);
     printf("Qual a área da cidade? ");
-    scanf(" %i", &area8);
+    scanf(" %f", &area8);
     printf("Qual o PIB da cidade ? ");
     scanf(" %f", &pib8);
     printf("Quantos pontos turísticos tem na cidade ? ");
@@ -154,7 +154,7 @@ int main(){
     printf("Qual a população da cidade ? ");
     scanf(" %i", &populacao9);
     printf("Qual a área da cidade? ");
-    scanf(" %i", &area9);
+    scanf(" %f", &area9);
     printf("Qual o PIB da cidade ? ");
     scanf(" %f", &pib9);
     printf("Quantos pontos turísticos tem na cidade ? ");
@@ -170,7 +170,7 @@ int main(){
     printf("Qual a população da cidade ? ");
     scanf(" %i", &populacao10);
     printf("Qual a área da cidade? ");
-    scanf(" %i", &area10);
+    scanf(" %f", &area10);
     printf("Qual o PIB da cidade ? ");
     scanf(" %f", &pib10);
     printf("Quantos pontos turísticos tem na cidade ? ");
@@ -186,7 +186,7 @@ int main(){
     printf("Qual a população da cidade ? ");
     scanf(" %i", &populacao11);
     printf("Qual a área da cidade? ");
-    scanf(" %i", &area11);
+    scanf(" %f", &area11);
     printf("Qual o PIB da cidade ? ");
     scanf(" %f", &pib11);
     printf("Quantos pontos turísticos tem na cidade ? ");
@@ -202,7 +202,7 @@ int main(){
     printf("Qual a população da cidade ? ");
     scanf(" %i", &populacao12);
     printf("Qual a área da cidade? ");
-    scanf(" %i", &area12);
+    scanf(" %f", &area12);
     printf("Qual o PIB da cidade ? ");
     scanf(" %f", &pib12);
     printf("Quantos pontos turísticos tem na cidade ? ");
@@ -218,7 +218,7 @@ int main(){
     printf("Qual a população da cidade ? ");
     scanf(" %i", &populacao13);
     printf("Qual a área da cidade? ");
-    scanf(" %i", &area13);
+    scanf(" %f", &area13);
     printf("Qual o PIB da cidade ? ");
     scanf(" %f", &pib13);
     printf("Quantos pontos turísticos tem na cidade ? ");
@@ -234,7 +234,7 @@ int main(){
     printf("Qual a população da cidade ? ");
     scanf(" %i", &populacao14);
     printf("Qual a área da cidade? ");
-    scanf(" %i", &area14);
+    scanf(" %f", &area14);
     printf("Qual o PIB da cidade ? ");
     scanf(" %f", &pib14);
     printf("Quantos pontos turísticos tem na cidade ? ");
@@ -250,7 +250,7 @@ int main(){
     printf("Qual a população da cidade ? ");
     scanf(" %i", &populacao15);
     printf("Qual a área da cidade? ");
-    scanf(" %i", &area15);
+    scanf(" %f", &area15);
     printf("Qual o PIB da cidade ? ");
     scanf(" %f", &pib15);
     printf("Quantos pontos turísticos tem na cidade ? ");
@@ -266,7 +266,7 @@ int main(){
     printf("Qual a população da cidade ? ");
     scanf(" %i", &populacao16);
     printf("Qual a área da cidade? ");
-    scanf(" %i", &area16);
+    scanf(" %f", &area16);
     printf("Qual o PIB da cidade ? ");
     scanf(" %f", &pib16);
     printf("Quantos pontos turísticos tem na cidade ? ");
@@ -282,7 +282,7 @@ int main(){
     printf("Qual a população da cidade ? ");
     scanf(" %i", &populacao17);
     printf("Qual a área da cidade? ");
-    scanf(" %i", &area17);
+    scanf(" %f", &area17);
     printf("Qual o PIB da cidade ? ");
     scanf(" %f", &pib17);
     printf("Quantos pontos turísticos tem na cidade ? ");
@@ -298,7 +298,7 @@ int main(){
     printf("Qual a população da cidade ? ");
     scanf(" %i", &populacao18);
     printf("Qual a área da cidade? ");
-    scanf(" %i", &area18);
+    scanf(" %f", &area18);
     printf("Qual o PIB da cidade ? ");
     scanf(" %f", &pib18);
     printf("Quantos pontos turísticos tem na cidade ? ");
@@ -314,7 +314,7 @@ int main(){
     printf("Qual a população da cidade ? ");
     scanf(" %i", &populacao19);
     printf("Qual a área da cidade? ");
-    scanf(" %i", &area19);
+    scanf(" %f", &area19);
     printf("Qual o PIB da cidade ? ");
     scanf(" %f", &pib19);
     printf("Quantos pontos turísticos tem na cidade ? ");
@@ -330,7 +330,7 @@ int main(){
     printf("Qual a população da cidade ? ");
     scanf(" %i", &populacao20);
     printf("Qual a área da cidade? ");
-    scanf(" %i", &area20);
+    scanf(" %f", &area20);
     printf("Qual o PIB da cidade ? ");
     scanf(" %f", &pib20);
     printf("Quantos pontos turísticos tem na cidade ? ");
@@ -346,7 +346,7 @@ int main(){
     printf("Qual a população da cidade ? ");
     scanf(" %i", &populacao21);
     printf("Qual a área da cidade? ");
-    scanf(" %i", &area21);
+    scanf(" %f", &area21);
     printf("Qual o PIB da cidade ? ");
     scanf(" %f", &pib21);
     printf("Quantos pontos turísticos tem na cidade ? ");
@@ -362,7 +362,7 @@ int main(){
     printf("Qual a população da cidade ? ");
     scanf(" %i", &populacao22);
     printf("Qual a área da cidade? ");
-    scanf(" %i", &area22);
+    scanf(" %f", &area22);
     printf("Qual o PIB da cidade ? ");
     scanf(" %f", &pib22);
     printf("Quantos pontos turísticos tem na cidade ? ");
@@ -378,7 +378,7 @@ int main(){
     printf("Qual a população da cidade ? ");
     scanf(" %i", &populacao23);
     printf("Qual a área da cidade? ");
-    scanf(" %i", &area23);
+    scanf(" %f", &area23);
     printf("Qual o PIB da cidade ? ");
     scanf(" %f", &pib23);
     printf("Quantos pontos turísticos tem na cidade ? ");
@@ -394,7 +394,7 @@ int main(){
     printf("Qual a população da cidade ? ");
     scanf(" %i", &populacao24);
     printf("Qual a área da cidade? ");
-    scanf(" %i", &area24);
+    scanf(" %f", &area24);
     printf("Qual o PIB da cidade ? ");
     scanf(" %f", &pib24);
     printf("Quantos pontos turísticos tem na cidade ? ");
@@ -410,7 +410,7 @@ int main(){
     printf("Qual a população da cidade ? ");
     scanf(" %i", &populacao25);
     printf("Qual a área da cidade? ");
-    scanf(" %i", &area25);
+    scanf(" %f", &area25);
     printf("Qual o PIB da cidade ? ");
     scanf(" %f", &pib25);
     printf("Quantos pontos turísticos tem na cidade ? ");
@@ -426,7 +426,7 @@ int main(){
     printf("Qual a população da cidade ? ");
     scanf(" %i", &populacao26);
     printf("Qual a área da cidade? ");
-    scanf(" %i", &area26);
+    scanf(" %f", &area26);
     printf("Qual o PIB da cidade ? ");
     scanf(" %f", &pib26);
     printf("Quantos pontos turísticos tem na cidade ? ");
@@ -442,7 +442,7 @@ int main(){
     printf("Qual a população da cidade ? ");
     scanf(" %i", &populacao27);
     printf("Qual a área da cidade? ");
-    scanf(" %i", &area27);
+    scanf(" %f", &area27);
     printf("Qual o PIB da cidade ? ");
     scanf(" %f", &pib27);
     printf("Quantos pontos turísticos tem na cidade ? ");
@@ -458,7 +458,7 @@ int main(){
     printf("Qual a população da cidade ? ");
     scanf(" %i", &populacao28);
     printf("Qual a área da cidade? ");
-    scanf(" %i", &area28);
+    scanf(" %f", &area28);
     printf("Qual o PIB da cidade ? ");
     scanf(" %f", &pib28);
     printf("Quantos pontos turísticos tem na cidade ? ");
@@ -474,7 +474,7 @@ int main(){
     printf("Qual a população da cidade ? ");
     scanf(" %i", &populacao29);
     printf("Qual a área da cidade? ");
-    scanf(" %i", &area29);
+    scanf(" %f", &area29);
     printf("Qual o PIB da cidade ? ");
     scanf(" %f", &pib29);
     printf("Quantos pontos turísticos tem na cidade ? ");
@@ -490,7 +490,7 @@ int main(){
     printf("Qual a população da cidade ? ");
     scanf(" %i", &populacao30);
     printf("Qual a área da cidade? ");
-    scanf(" %i", &area30);
+    scanf(" %f", &area30);
     printf("Qual o PIB da cidade ? ");
     scanf(" %f", &pib30);
     printf("Quantos pontos turísticos tem na cidade ? ");
@@ -506,7 +506,7 @@ int main(){
     printf("Qual a população da cidade ? ");
     scanf(" %i", &populacao31);
     printf("Qual a área da cidade? ");
-    scanf(" %i", &area31);
+    scanf(" %f", &area31);
     printf("Qual o PIB da cidade ? ");
     scanf(" %f", &pib31);
     printf("Quantos pontos turísticos tem na cidade ? ");
@@ -522,7 +522,7 @@ int main(){
     printf("Qual a população da cidade ? ");
     scanf(" %i", &populacao32);
     printf("Qual a área da cidade? ");
-    scanf(" %i", &area32);
+    scanf(" %f", &area32);
     printf("Qual o PIB da cidade ? ");
     scanf(" %f", &pib32);
     printf("Quantos pontos turísticos tem na cidade ? ");
