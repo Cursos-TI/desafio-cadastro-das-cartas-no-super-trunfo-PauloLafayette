@@ -6,9 +6,10 @@ int main(){
 // Siga os comentários para implementar cada parte do desafio.
 //Teste larissa
 
-//32 variaveis de cada pois são 32 cidades, mas so 8 variáveis estado pois não e necessário mais.
+
+//32 variáveis de cada pois são 32 cidades, e 8 de estado.
 //nomes com espaço não estão funcionando, para que funcione recomendo o uso de "-", por exemplo: São-Paulo, Rio-de-Janeiro
-//Só utilizei printf e scanf, se era pra ter feito de outra maneira eu não percebi.
+
     char estado, estado2, estado3, estado4,estado5,estado6,estado7,estado8;
     char codigo[50],codigo2[50],codigo3[50],codigo4[50],codigo5[50],codigo6[50],codigo7[50],codigo8[50],codigo9[50],codigo10[50],codigo11[50],codigo12[50],codigo13[50],codigo14[50],codigo15[50],codigo16[50],codigo17[50],codigo18[50],codigo19[50],codigo20[50],codigo21[50],codigo22[50],codigo23[50],codigo24[50],codigo25[50],codigo26[50],codigo27[50],codigo28[50],codigo29[50],codigo30[50],codigo31[50],codigo32[50];
     char nome[50],nome2[50],nome3[50],nome4[50],nome5[50],nome6[50],nome7[50],nome8[50],nome9[50],nome10[50],nome11[50],nome12[50],nome13[50],nome14[50],nome15[50],nome16[50],nome17[50],nome18[50],nome19[50],nome20[50],nome21[50],nome22[50],nome23[50],nome24[50],nome25[50],nome26[50],nome27[50],nome28[50],nome29[50],nome30[50],nome31[50],nome32[50];
@@ -87,7 +88,8 @@ int main(){
     float densidade31 =  populacao31/area31;
     float densidade32 =  populacao32/area32;
     
-    
+    //funções para os cadastros das cidades
+
     printf("Cadastro\n");
     printf("Qual o estado ? ");
     scanf("%c", &estado);
@@ -600,105 +602,138 @@ int main(){
     printf("Quantos pontos turísticos tem na cidade ? ");
     scanf(" %i", &pt32);
 
+//funções para imprimir os dados inseridos juntamente com o PIB per capita e Densidade populacinal.
+    printf("Utilize números digitados completamente para facilitar os calcúlos. Por exemplo 5 Bilhões = 5000000000");
     printf("\nCidade número 1\n");
-    printf(" Estado: %c\n Código da cidade: %s\n Nome da cidade: %s\n População: %i habitantes\n Área da cidade: %i kilometros quadrados\n PIB da cidade: %f Bilhões de R$\n Quantidade de pontos turísticos: %i\n PIB per capita: %f\n Densidade populacional: %f\n",estado, codigo, nome, populacao, area, pib, pt, pibpercap, densidade);
-    
+    printf(" Estado: %c\n Código da cidade: %s\n Nome da cidade: %s\n População: %i habitantes\n Área da cidade: %i kilometros quadrados\n PIB da cidade: %f Bilhões de R$\n Quantidade de pontos turísticos: %i\n",estado, codigo, nome, populacao, area, pib, pt);
+    printf("PIB per capita: %f\n Densidade populacional: %f\n", pibpercap, densidade);
+
     printf("\nCidade número 2\n");
-    printf(" Estado: %c\n Código da cidade: %s\n Nome da cidade: %s\n População: %i habitantes\n Área da cidade: %i kilometros quadrados\n PIB da cidade: %f Bilhões de R$\n Quantidade de pontos turísticos: %i\n PIB per capita: %f\n Densidade populacional: %f\n",estado, codigo2, nome2, populacao2, area2, pib2, pt2, pibpercap2, densidade2);
-    
+    printf(" Estado: %c\n Código da cidade: %s\n Nome da cidade: %s\n População: %i habitantes\n Área da cidade: %i kilometros quadrados\n PIB da cidade: %f Bilhões de R$\n Quantidade de pontos turísticos: %i\n",estado, codigo2, nome2, populacao2, area2, pib2, pt2);
+    printf("PIB per capita: %f\n Densidade populacional: %f\n", pibpercap2, densidade2);
+
     printf("\nCidade número 3\n");
-    printf(" Estado: %c\n Código da cidade: %s\n Nome da cidade: %s\n População: %i habitantes\n Área da cidade: %i kilometros quadrados\n PIB da cidade: %f Bilhões de R$\n Quantidade de pontos turísticos: %i\n PIB per capita: %f\n Densidade populacional: %f\n",estado, codigo3, nome3, populacao3, area3, pib3, pt3, pibpercap3, densidade3);
-    
+    printf(" Estado: %c\n Código da cidade: %s\n Nome da cidade: %s\n População: %i habitantes\n Área da cidade: %i kilometros quadrados\n PIB da cidade: %f Bilhões de R$\n Quantidade de pontos turísticos: %i\n",estado, codigo3, nome3, populacao3, area3, pib3, pt3);
+    printf("PIB per capita: %f\n Densidade populacional: %f\n", pibpercap3, densidade3);
+
     printf("\nCidade número 4\n");
-    printf(" Estado: %c\n Código da cidade: %s\n Nome da cidade: %s\n População: %i habitantes\n Área da cidade: %i kilometros quadrados\n PIB da cidade: %f Bilhões de R$\n Quantidade de pontos turísticos: %i\n PIB per capita: %f\n Densidade populacional: %f\n",estado, codigo4, nome4, populacao4, area4, pib4, pt4, pibpercap4, densidade4);
-    
+    printf(" Estado: %c\n Código da cidade: %s\n Nome da cidade: %s\n População: %i habitantes\n Área da cidade: %i kilometros quadrados\n PIB da cidade: %f Bilhões de R$\n Quantidade de pontos turísticos: %i\n",estado, codigo4, nome4, populacao4, area4, pib4, pt4);
+    printf("PIB per capita: %f\n Densidade populacional: %f\n", pibpercap4, densidade4);
+
     printf("\nCidade número 5\n");
-    printf(" Estado: %c\n Código da cidade: %s\n Nome da cidade: %s\n População: %i habitantes\n Área da cidade: %i kilometros quadrados\n PIB da cidade: %f Bilhões de R$\n Quantidade de pontos turísticos: %i\n PIB per capita: %f\n Densidade populacional: %f\n",estado2, codigo5, nome5, populacao5, area5, pib5, pt5, pibpercap5, densidade5);
-    
+    printf(" Estado: %c\n Código da cidade: %s\n Nome da cidade: %s\n População: %i habitantes\n Área da cidade: %i kilometros quadrados\n PIB da cidade: %f Bilhões de R$\n Quantidade de pontos turísticos: %i\n",estado2, codigo5, nome5, populacao5, area5, pib5, pt5);
+    printf("PIB per capita: %f\n Densidade populacional: %f\n", pibpercap5, densidade5);
+
     printf("\nCidade número 6\n");
-    printf(" Estado: %c\n Código da cidade: %s\n Nome da cidade: %s\n População: %i habitantes\n Área da cidade: %i kilometros quadrados\n PIB da cidade: %f Bilhões de R$\n Quantidade de pontos turísticos: %i\n PIB per capita: %f\n Densidade populacional: %f\n",estado2, codigo6, nome6, populacao6, area6, pib6, pt6, pibpercap6, densidade6);
-    
+    printf(" Estado: %c\n Código da cidade: %s\n Nome da cidade: %s\n População: %i habitantes\n Área da cidade: %i kilometros quadrados\n PIB da cidade: %f Bilhões de R$\n Quantidade de pontos turísticos: %i\n",estado2, codigo6, nome6, populacao6, area6, pib6, pt6);
+    printf("PIB per capita: %f\n Densidade populacional: %f\n", pibpercap6, densidade6);
+
     printf("\nCidade número 7\n");
-    printf(" Estado: %c\n Código da cidade: %s\n Nome da cidade: %s\n População: %i habitantes\n Área da cidade: %i kilometros quadrados\n PIB da cidade: %f Bilhões de R$\n Quantidade de pontos turísticos: %i\n PIB per capita: %f\n Densidade populacional: %f\n",estado2, codigo7, nome7, populacao7, area7, pib7, pt7, pibpercap7, densidade7);
-    
+    printf(" Estado: %c\n Código da cidade: %s\n Nome da cidade: %s\n População: %i habitantes\n Área da cidade: %i kilometros quadrados\n PIB da cidade: %f Bilhões de R$\n Quantidade de pontos turísticos: %i\n",estado2, codigo7, nome7, populacao7, area7, pib7, pt7);
+    printf("PIB per capita: %f\n Densidade populacional: %f\n", pibpercap7, densidade7);
+
     printf("\nCidade número 8\n");
-    printf(" Estado: %c\n Código da cidade: %s\n Nome da cidade: %s\n População: %i habitantes\n Área da cidade: %i kilometros quadrados\n PIB da cidade: %f Bilhões de R$\n Quantidade de pontos turísticos: %i\n PIB per capita: %f\n Densidade populacional: %f\n",estado2, codigo8, nome8, populacao8, area8, pib8, pt8, pibpercap8, densidade8);
-    
+    printf(" Estado: %c\n Código da cidade: %s\n Nome da cidade: %s\n População: %i habitantes\n Área da cidade: %i kilometros quadrados\n PIB da cidade: %f Bilhões de R$\n Quantidade de pontos turísticos: %i\n",estado2, codigo8, nome8, populacao8, area8, pib8, pt8);
+    printf("PIB per capita: %f\n Densidade populacional: %f\n", pibpercap8, densidade8);
+
     printf("\nCidade número 9\n");
-    printf(" Estado: %c\n Código da cidade: %s\n Nome da cidade: %s\n População: %i habitantes\n Área da cidade: %i kilometros quadrados\n PIB da cidade: %f Bilhões de R$\n Quantidade de pontos turísticos: %i\n PIB per capita: %f\n Densidade populacional: %f\n",estado3, codigo9, nome9, populacao9, area9, pib9, pt9, pibpercap9, densidade9);
-    
+    printf(" Estado: %c\n Código da cidade: %s\n Nome da cidade: %s\n População: %i habitantes\n Área da cidade: %i kilometros quadrados\n PIB da cidade: %f Bilhões de R$\n Quantidade de pontos turísticos: %i\n",estado3, codigo9, nome9, populacao9, area9, pib9, pt9);
+    printf("PIB per capita: %f\n Densidade populacional: %f\n", pibpercap9, densidade9);
+
     printf("\nCidade número 10\n");
-    printf(" Estado: %c\n Código da cidade: %s\n Nome da cidade: %s\n População: %i habitantes\n Área da cidade: %i kilometros quadrados\n PIB da cidade: %f Bilhões de R$\n Quantidade de pontos turísticos: %i\n PIB per capita: %f\n Densidade populacional: %f\n",estado3, codigo10, nome10, populacao10, area10, pib10, pt10, pibpercap10, densidade10);
-    
+    printf(" Estado: %c\n Código da cidade: %s\n Nome da cidade: %s\n População: %i habitantes\n Área da cidade: %i kilometros quadrados\n PIB da cidade: %f Bilhões de R$\n Quantidade de pontos turísticos: %i\n",estado3, codigo10, nome10, populacao10, area10, pib10, pt10);
+    printf("PIB per capita: %f\n Densidade populacional: %f\n", pibpercap10, densidade10);
+
     printf("\nCidade número 11\n");
-    printf(" Estado: %c\n Código da cidade: %s\n Nome da cidade: %s\n População: %i habitantes\n Área da cidade: %i kilometros quadrados\n PIB da cidade: %f Bilhões de R$\n Quantidade de pontos turísticos: %i\n PIB per capita: %f\n Densidade populacional: %f\n",estado3, codigo11, nome11, populacao11, area11, pib11, pt11, pibpercap11, densidade11);
-    
+    printf(" Estado: %c\n Código da cidade: %s\n Nome da cidade: %s\n População: %i habitantes\n Área da cidade: %i kilometros quadrados\n PIB da cidade: %f Bilhões de R$\n Quantidade de pontos turísticos: %i\n",estado3, codigo11, nome11, populacao11, area11, pib11, pt11);
+    printf("PIB per capita: %f\n Densidade populacional: %f\n", pibpercap11, densidade11);
+
     printf("\nCidade número 12\n");
-    printf(" Estado: %c\n Código da cidade: %s\n Nome da cidade: %s\n População: %i habitantes\n Área da cidade: %i kilometros quadrados\n PIB da cidade: %f Bilhões de R$\n Quantidade de pontos turísticos: %i\n PIB per capita: %f\n Densidade populacional: %f\n",estado3, codigo12, nome12, populacao12, area12, pib12, pt12, pibpercap12, densidade12);
-    
+    printf(" Estado: %c\n Código da cidade: %s\n Nome da cidade: %s\n População: %i habitantes\n Área da cidade: %i kilometros quadrados\n PIB da cidade: %f Bilhões de R$\n Quantidade de pontos turísticos: %i\n",estado3, codigo12, nome12, populacao12, area12, pib12, pt12);
+    printf("PIB per capita: %f\n Densidade populacional: %f\n", pibpercap12, densidade12);
+
     printf("\nCidade número 13\n");
-    printf(" Estado: %c\n Código da cidade: %s\n Nome da cidade: %s\n População: %i habitantes\n Área da cidade: %i kilometros quadrados\n PIB da cidade: %f Bilhões de R$\n Quantidade de pontos turísticos: %i\n PIB per capita: %f\n Densidade populacional: %f\n",estado4, codigo13, nome13, populacao13, area13, pib13, pt13, pibpercap13, densidade13);
-    
+    printf(" Estado: %c\n Código da cidade: %s\n Nome da cidade: %s\n População: %i habitantes\n Área da cidade: %i kilometros quadrados\n PIB da cidade: %f Bilhões de R$\n Quantidade de pontos turísticos: %i\n",estado4, codigo13, nome13, populacao13, area13, pib13, pt13);
+    printf("PIB per capita: %f\n Densidade populacional: %f\n", pibpercap13, densidade13);
+
     printf("\nCidade número 14\n");
-    printf(" Estado: %c\n Código da cidade: %s\n Nome da cidade: %s\n População: %i habitantes\n Área da cidade: %i kilometros quadrados\n PIB da cidade: %f Bilhões de R$\n Quantidade de pontos turísticos: %i\n PIB per capita: %f\n Densidade populacional: %f\n",estado4, codigo14, nome14, populacao14, area14, pib14, pt14, pibpercap14, densidade14);
-    
+    printf(" Estado: %c\n Código da cidade: %s\n Nome da cidade: %s\n População: %i habitantes\n Área da cidade: %i kilometros quadrados\n PIB da cidade: %f Bilhões de R$\n Quantidade de pontos turísticos: %i\n",estado4, codigo14, nome14, populacao14, area14, pib14, pt14);
+    printf("PIB per capita: %f\n Densidade populacional: %f\n", pibpercap14, densidade14);
+
     printf("\nCidade número 15\n");
-    printf(" Estado: %c\n Código da cidade: %s\n Nome da cidade: %s\n População: %i habitantes\n Área da cidade: %i kilometros quadrados\n PIB da cidade: %f Bilhões de R$\n Quantidade de pontos turísticos: %i\n PIB per capita: %f\n Densidade populacional: %f\n",estado4, codigo15, nome15, populacao15, area15, pib15, pt15, pibpercap15, densidade15);
-    
+    printf(" Estado: %c\n Código da cidade: %s\n Nome da cidade: %s\n População: %i habitantes\n Área da cidade: %i kilometros quadrados\n PIB da cidade: %f Bilhões de R$\n Quantidade de pontos turísticos: %i\n",estado4, codigo15, nome15, populacao15, area15, pib15, pt15);
+    printf("PIB per capita: %f\n Densidade populacional: %f\n", pibpercap15, densidade15);
+
     printf("\nCidade número 16\n");
-    printf(" Estado: %c\n Código da cidade: %s\n Nome da cidade: %s\n População: %i habitantes\n Área da cidade: %i kilometros quadrados\n PIB da cidade: %f Bilhões de R$\n Quantidade de pontos turísticos: %i\n PIB per capita: %f\n Densidade populacional: %f\n",estado4, codigo16, nome16, populacao16, area16, pib16, pt16, pibpercap16, densidade16);
-    
+    printf(" Estado: %c\n Código da cidade: %s\n Nome da cidade: %s\n População: %i habitantes\n Área da cidade: %i kilometros quadrados\n PIB da cidade: %f Bilhões de R$\n Quantidade de pontos turísticos: %i\n",estado4, codigo16, nome16, populacao16, area16, pib16, pt16);
+    printf("PIB per capita: %f\n Densidade populacional: %f\n", pibpercap16, densidade16);
+
     printf("\nCidade número 17\n");
-    printf(" Estado: %c\n Código da cidade: %s\n Nome da cidade: %s\n População: %i habitantes\n Área da cidade: %i kilometros quadrados\n PIB da cidade: %f Bilhões de R$\n Quantidade de pontos turísticos: %i\n PIB per capita: %f\n Densidade populacional: %f\n",estado5, codigo17, nome17, populacao17, area17, pib17, pt17, pibpercap17, densidade17);
-    
+    printf(" Estado: %c\n Código da cidade: %s\n Nome da cidade: %s\n População: %i habitantes\n Área da cidade: %i kilometros quadrados\n PIB da cidade: %f Bilhões de R$\n Quantidade de pontos turísticos: %i\n",estado5, codigo17, nome17, populacao17, area17, pib17, pt17);
+    printf("PIB per capita: %f\n Densidade populacional: %f\n", pibpercap17, densidade17);
+
     printf("\nCidade número 18\n");
-    printf(" Estado: %c\n Código da cidade: %s\n Nome da cidade: %s\n População: %i habitantes\n Área da cidade: %i kilometros quadrados\n PIB da cidade: %f Bilhões de R$\n Quantidade de pontos turísticos: %i\n PIB per capita: %f\n Densidade populacional: %f\n",estado5, codigo18, nome18, populacao18, area18, pib18, pt18, pibpercap18, densidade18);
-    
+    printf(" Estado: %c\n Código da cidade: %s\n Nome da cidade: %s\n População: %i habitantes\n Área da cidade: %i kilometros quadrados\n PIB da cidade: %f Bilhões de R$\n Quantidade de pontos turísticos: %i\n",estado5, codigo18, nome18, populacao18, area18, pib18, pt18);
+    printf("PIB per capita: %f\n Densidade populacional: %f\n", pibpercap18, densidade18);
+
     printf("\nCidade número 19\n");
-    printf(" Estado: %c\n Código da cidade: %s\n Nome da cidade: %s\n População: %i habitantes\n Área da cidade: %i kilometros quadrados\n PIB da cidade: %f Bilhões de R$\n Quantidade de pontos turísticos: %i\n PIB per capita: %f\n Densidade populacional: %f\n",estado5, codigo19, nome19, populacao19, area19, pib19, pt19, pibpercap19, densidade19);
-    
+    printf(" Estado: %c\n Código da cidade: %s\n Nome da cidade: %s\n População: %i habitantes\n Área da cidade: %i kilometros quadrados\n PIB da cidade: %f Bilhões de R$\n Quantidade de pontos turísticos: %i\n",estado5, codigo19, nome19, populacao19, area19, pib19, pt19);
+    printf("PIB per capita: %f\n Densidade populacional: %f\n", pibpercap19, densidade19);
+
     printf("\nCidade número 20\n");
-    printf(" Estado: %c\n Código da cidade: %s\n Nome da cidade: %s\n População: %i habitantes\n Área da cidade: %i kilometros quadrados\n PIB da cidade: %f Bilhões de R$\n Quantidade de pontos turísticos: %i\n PIB per capita: %f\n Densidade populacional: %f\n",estado5, codigo20, nome20, populacao20, area20, pib20, pt20, pibpercap20, densidade20);
-    
+    printf(" Estado: %c\n Código da cidade: %s\n Nome da cidade: %s\n População: %i habitantes\n Área da cidade: %i kilometros quadrados\n PIB da cidade: %f Bilhões de R$\n Quantidade de pontos turísticos: %i\n",estado5, codigo20, nome20, populacao20, area20, pib20, pt20);
+    printf("PIB per capita: %f\n Densidade populacional: %f\n", pibpercap20, densidade20);
+
     printf("\nCidade número 21\n");
-    printf(" Estado: %c\n Código da cidade: %s\n Nome da cidade: %s\n População: %i habitantes\n Área da cidade: %i kilometros quadrados\n PIB da cidade: %f Bilhões de R$\n Quantidade de pontos turísticos: %i\n PIB per capita: %f\n Densidade populacional: %f\n",estado6, codigo21, nome21, populacao21, area21, pib21, pt21, pibpercap21, densidade21);
-    
+    printf(" Estado: %c\n Código da cidade: %s\n Nome da cidade: %s\n População: %i habitantes\n Área da cidade: %i kilometros quadrados\n PIB da cidade: %f Bilhões de R$\n Quantidade de pontos turísticos: %i\n",estado6, codigo21, nome21, populacao21, area21, pib21, pt21);
+    printf("PIB per capita: %f\n Densidade populacional: %f\n", pibpercap21, densidade21);
+
     printf("\nCidade número 22\n");
-    printf(" Estado: %c\n Código da cidade: %s\n Nome da cidade: %s\n População: %i habitantes\n Área da cidade: %i kilometros quadrados\n PIB da cidade: %f Bilhões de R$\n Quantidade de pontos turísticos: %i\n PIB per capita: %f\n Densidade populacional: %f\n",estado6, codigo22, nome22, populacao22, area22, pib22, pt22, pibpercap22, densidade22);
-    
+    printf(" Estado: %c\n Código da cidade: %s\n Nome da cidade: %s\n População: %i habitantes\n Área da cidade: %i kilometros quadrados\n PIB da cidade: %f Bilhões de R$\n Quantidade de pontos turísticos: %i\n",estado6, codigo22, nome22, populacao22, area22, pib22, pt22);
+    printf("PIB per capita: %f\n Densidade populacional: %f\n", pibpercap22, densidade22);
+
     printf("\nCidade número 23\n");
-    printf(" Estado: %c\n Código da cidade: %s\n Nome da cidade: %s\n População: %i habitantes\n Área da cidade: %i kilometros quadrados\n PIB da cidade: %f Bilhões de R$\n Quantidade de pontos turísticos: %i\n PIB per capita: %f\n Densidade populacional: %f\n",estado6, codigo23, nome23, populacao23, area23, pib23, pt23, pibpercap23, densidade23);
-    
+    printf(" Estado: %c\n Código da cidade: %s\n Nome da cidade: %s\n População: %i habitantes\n Área da cidade: %i kilometros quadrados\n PIB da cidade: %f Bilhões de R$\n Quantidade de pontos turísticos: %i\n",estado6, codigo23, nome23, populacao23, area23, pib23, pt23);
+    printf("PIB per capita: %f\n Densidade populacional: %f\n", pibpercap23, densidade23);
+
     printf("\nCidade número 24\n");
-    printf(" Estado: %c\n Código da cidade: %s\n Nome da cidade: %s\n População: %i habitantes\n Área da cidade: %i kilometros quadrados\n PIB da cidade: %f Bilhões de R$\n Quantidade de pontos turísticos: %i\n PIB per capita: %f\n Densidade populacional: %f\n",estado6, codigo24, nome24, populacao24, area24, pib24, pt24, pibpercap24, densidade24);
-    
+    printf(" Estado: %c\n Código da cidade: %s\n Nome da cidade: %s\n População: %i habitantes\n Área da cidade: %i kilometros quadrados\n PIB da cidade: %f Bilhões de R$\n Quantidade de pontos turísticos: %i\n",estado6, codigo24, nome24, populacao24, area24, pib24, pt24);
+    printf("PIB per capita: %f\n Densidade populacional: %f\n", pibpercap24, densidade24);
+
     printf("\nCidade número 25\n");
-    printf(" Estado: %c\n Código da cidade: %s\n Nome da cidade: %s\n População: %i habitantes\n Área da cidade: %i kilometros quadrados\n PIB da cidade: %f Bilhões de R$\n Quantidade de pontos turísticos: %i\n PIB per capita: %f\n Densidade populacional: %f\n",estado7, codigo25, nome25, populacao25, area25, pib25, pt25, pibpercap25, densidade25);
-    
+    printf(" Estado: %c\n Código da cidade: %s\n Nome da cidade: %s\n População: %i habitantes\n Área da cidade: %i kilometros quadrados\n PIB da cidade: %f Bilhões de R$\n Quantidade de pontos turísticos: %i\n",estado7, codigo25, nome25, populacao25, area25, pib25, pt25);
+    printf("PIB per capita: %f\n Densidade populacional: %f\n", pibpercap25, densidade25);
+
     printf("\nCidade número 26\n");
-    printf(" Estado: %c\n Código da cidade: %s\n Nome da cidade: %s\n População: %i habitantes\n Área da cidade: %i kilometros quadrados\n PIB da cidade: %f Bilhões de R$\n Quantidade de pontos turísticos: %i\n PIB per capita: %f\n Densidade populacional: %f\n",estado7, codigo26, nome26, populacao26, area26, pib26, pt26, pibpercap26, densidade26);
-    
+    printf(" Estado: %c\n Código da cidade: %s\n Nome da cidade: %s\n População: %i habitantes\n Área da cidade: %i kilometros quadrados\n PIB da cidade: %f Bilhões de R$\n Quantidade de pontos turísticos: %i\n",estado7, codigo26, nome26, populacao26, area26, pib26, pt26);
+    printf("PIB per capita: %f\n Densidade populacional: %f\n", pibpercap26, densidade26);
+
     printf("\nCidade número 27\n");
-    printf(" Estado: %c\n Código da cidade: %s\n Nome da cidade: %s\n População: %i habitantes\n Área da cidade: %i kilometros quadrados\n PIB da cidade: %f Bilhões de R$\n Quantidade de pontos turísticos: %i\n PIB per capita: %f\n Densidade populacional: %f\n",estado7, codigo27, nome27, populacao27, area27, pib27, pt27, pibpercap27, densidade27);
-    
+    printf(" Estado: %c\n Código da cidade: %s\n Nome da cidade: %s\n População: %i habitantes\n Área da cidade: %i kilometros quadrados\n PIB da cidade: %f Bilhões de R$\n Quantidade de pontos turísticos: %i\n",estado7, codigo27, nome27, populacao27, area27, pib27, pt27);
+    printf("PIB per capita: %f\n Densidade populacional: %f\n", pibpercap27, densidade27);
+
     printf("\nCidade número 28\n");
-    printf(" Estado: %c\n Código da cidade: %s\n Nome da cidade: %s\n População: %i habitantes\n Área da cidade: %i kilometros quadrados\n PIB da cidade: %f Bilhões de R$\n Quantidade de pontos turísticos: %i\n PIB per capita: %f\n Densidade populacional: %f\n",estado7, codigo28, nome28, populacao28, area28, pib28, pt28, pibpercap28, densidade28);
-    
+    printf(" Estado: %c\n Código da cidade: %s\n Nome da cidade: %s\n População: %i habitantes\n Área da cidade: %i kilometros quadrados\n PIB da cidade: %f Bilhões de R$\n Quantidade de pontos turísticos: %i\n",estado7, codigo28, nome28, populacao28, area28, pib28, pt28);
+    printf("PIB per capita: %f\n Densidade populacional: %f\n", pibpercap28, densidade28);
+
     printf("\nCidade número 29\n");
-    printf(" Estado: %c\n Código da cidade: %s\n Nome da cidade: %s\n População: %i habitantes\n Área da cidade: %i kilometros quadrados\n PIB da cidade: %f Bilhões de R$\n Quantidade de pontos turísticos: %i\n PIB per capita: %f\n Densidade populacional: %f\n",estado8, codigo29, nome29, populacao29, area29, pib29, pt29, pibpercap29, densidade29);
-    
+    printf(" Estado: %c\n Código da cidade: %s\n Nome da cidade: %s\n População: %i habitantes\n Área da cidade: %i kilometros quadrados\n PIB da cidade: %f Bilhões de R$\n Quantidade de pontos turísticos: %i\n",estado8, codigo29, nome29, populacao29, area29, pib29, pt29);
+    printf("PIB per capita: %f\n Densidade populacional: %f\n", pibpercap29, densidade29);
+
     printf("\nCidade número 30\n");
-    printf(" Estado: %c\n Código da cidade: %s\n Nome da cidade: %s\n População: %i habitantes\n Área da cidade: %i kilometros quadrados\n PIB da cidade: %f Bilhões de R$\n Quantidade de pontos turísticos: %i\n PIB per capita: %f\n Densidade populacional: %f\n",estado8, codigo30, nome30, populacao30, area30, pib30, pt30, pibpercap30, densidade30);
-    
+    printf(" Estado: %c\n Código da cidade: %s\n Nome da cidade: %s\n População: %i habitantes\n Área da cidade: %i kilometros quadrados\n PIB da cidade: %f Bilhões de R$\n Quantidade de pontos turísticos: %i\n",estado8, codigo30, nome30, populacao30, area30, pib30, pt30);
+    printf("PIB per capita: %f\n Densidade populacional: %f\n", pibpercap30, densidade30);
+
     printf("\nCidade número 31\n");
-    printf(" Estado: %c\n Código da cidade: %s\n Nome da cidade: %s\n População: %i habitantes\n Área da cidade: %i kilometros quadrados\n PIB da cidade: %f Bilhões de R$\n Quantidade de pontos turísticos: %i\n PIB per capita: %f\n Densidade populacional: %f\n",estado8, codigo31, nome31, populacao31, area31, pib31, pt31, pibpercap31, densidade31);
-    
+    printf(" Estado: %c\n Código da cidade: %s\n Nome da cidade: %s\n População: %i habitantes\n Área da cidade: %i kilometros quadrados\n PIB da cidade: %f Bilhões de R$\n Quantidade de pontos turísticos: %i\n",estado8, codigo31, nome31, populacao31, area31, pib31, pt31);
+    printf("PIB per capita: %f\n Densidade populacional: %f\n", pibpercap31, densidade31);
+
     printf("\nCidade número 32\n");
-    printf(" Estado: %c\n Código da cidade: %s\n Nome da cidade: %s\n População: %i habitantes\n Área da cidade: %i kilometros quadrados\n PIB da cidade: %f Bilhões de R$\n Quantidade de pontos turísticos: %i\n PIB per capita: %f\n Densidade populacional: %f\n",estado8, codigo32, nome32, populacao32, area32, pib32, pt32, pibpercap32, densidade32);
-    
+    printf(" Estado: %c\n Código da cidade: %s\n Nome da cidade: %s\n População: %i habitantes\n Área da cidade: %i kilometros quadrados\n PIB da cidade: %f Bilhões de R$\n Quantidade de pontos turísticos: %i\n",estado8, codigo32, nome32, populacao32, area32, pib32, pt32);
+    printf("PIB per capita: %f\n Densidade populacional: %f\n", pibpercap32, densidade32);
     
 return 0;
-
+}
 
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
@@ -710,5 +745,3 @@ return 0;
     // Exibição dos Dados das Cartas:
     // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
     // Exiba os valores inseridos para cada atributo da cidade, um por linha.
-
- }
